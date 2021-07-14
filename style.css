@@ -5,6 +5,7 @@
 
 body{
     margin: 0px;
+    padding: 0px;
 }
 
 /* ------------
@@ -192,14 +193,10 @@ footer{
 
 
 
-
+/*--------------------- 
+mobile responsive 
+-------------------- */
 @media only screen and (max-width:688px){
-    header{
-        width: 100%;
-        margin-top: 0px;
-        padding-top: 0px;
-
-    }
     #top-banner{
         margin-top: 0px;
     }
@@ -242,4 +239,45 @@ footer{
     .content span img{
         width: 70%;
     }
+}
+
+
+
+
+/*-------------------
+ tab responsive 
+------------------ */
+@media (min-width:689px) and (max-width:991px){
+    #banner-title{
+        margin-left: 30px;
+        margin-right: 10px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    #banner-img{
+        margin-top: 50px;
+        margin-bottom: 61.83px;
+        padding-left: 20px;
+    
+    }
+    #banner-img img{
+        width: 329px;
+        height: 259.17px;
+    }
+    .title-button h3{
+    
+        width: 278px;
+        height: 138px;
+        font-size: 36px;
+    }
+
+    #top-banner,
+    #players,
+    #news,
+    .partners{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 30px;
+        margin-top: 70px;
+    }    
 }
