@@ -81,7 +81,7 @@ section{
     grid-gap: 30px;
     margin-top: 70px;
 }
-#player{
+.player{
     padding: 15px 15px 33px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 
@@ -104,6 +104,43 @@ section{
 .player-details p{
     font-size: 16px;
 }
+
+
+/*------------
+ news start 
+------------- */
+#news-section{
+    margin-top: 50px;
+    padding-top: 30px;
+}
+#news-section h1{
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+#news{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    margin-top: 20px;
+}
+.news-main{
+    padding: 15px 15px 33px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.news-img{
+    margin-bottom: 16px;
+}
+.news-img img{
+    width: 300px;
+    height: 256px;
+}
+.news-details{
+    width: 300px;
+   
+}
+
+
 
 
 /*----------------
