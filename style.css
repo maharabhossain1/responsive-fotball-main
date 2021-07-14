@@ -1,0 +1,131 @@
+/*---------------------
+ Googole font import 
+--------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+    margin: 0px;
+}
+
+/* ------------
+header style start 
+----------------*/
+
+
+
+header{
+    width: 1440px;
+    height: 677px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color:#2D25A0 ;
+}
+#banner-title{
+    margin-left: 156px;
+    margin-right: 50px;
+    margin-top: 190px;
+    padding-top: 0px;
+}
+#banner-img{
+    margin-top: 153px;
+    margin-bottom: 86px;
+
+}
+.title-button h3{
+    
+    width: 485px;
+    height: 230px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+}
+.title-button button{
+    width: 168px;
+    height:44px;
+    background-color: #e02c6d;
+    text-align: center;
+    font-family:'Poppins', sans-serif; ;
+}
+button a {
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    transform:scale(1.2,1.2);
+    border-radius: 20px 100px 10px 20px;
+    transition: all 2s;
+    box-shadow: 0px 0px 35px #fd5da8;
+    background-color: #b01e54;
+}
+#banner-img img{
+    width: 556.01px;
+    height:438px ;
+}
+
+
+
+
+/*---------------------
+ player section start 
+--------------------- */
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    margin-top: 70px;
+}
+#player{
+    padding: 15px 15px 33px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+}
+.player-img{
+    margin-bottom: 16px;
+}
+.player-img img{
+    width: 300px;
+    height: 256px;
+}
+.player-details{
+    width: 300px;
+   
+}
+.player-details h2{
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+.player-details p{
+    font-size: 16px;
+}
+
+
+/*----------------
+ footer start 
+--------------- */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 158px;
+}
+.content span img{
+    width: 483.87px;
+    height: 110px;
+}
+.content{
+    text-align: center;
+}
+#social-links{
+    font-size: 32px;
+    
+}
+#social-links a{
+    text-decoration: none;
+}
