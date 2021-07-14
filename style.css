@@ -141,7 +141,26 @@ section{
 }
 
 
+/*--------------------
+official partners 
+-------------------- */
+#official-partners{
+    margin-top: 50px;
+    padding-top: 30px;
+}
+#official-partners h4{
+    font-family: 'Poppins', sans-serif;
+}
+.partners{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    margin-top: 20px;
+}
+.partner img{
+    width: 60%;
 
+}
 
 /*----------------
  footer start 
